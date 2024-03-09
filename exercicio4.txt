@@ -1,0 +1,53 @@
+4) Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em uma sala diferente. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada.
+
+Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
+
+- Resposta considerando uma sala contendo as 3 lâmpadas:
+
+Ligo o 1º interruptor e espero um tempo para que esquente. Desligo o mesmo e ligo o 2º interruptor.
+
+Verifico a 1ª lâmpada;
+Se estiver quente e apagada:
+	- 1º interruptor liga a 1ª lâmpada
+Se estiver acesa:
+	- 2º interruptor liga a 1ª lâmpada
+Se estiver fria e apagada:
+	- 3º interruptor liga a 1ª lâmpada
+	
+Verifico a 2ª lâmpada;
+Se estiver quente e apagada:
+	- 1º interruptor liga a 2ª lâmpada
+Se estiver acesa:
+	- 2º interruptor liga a 2ª lâmpada
+Se estiver fria e apagada:
+	- 3º interruptor liga a 2ª lâmpada
+
+Verifico a 3ª lâmpada;
+Se estiver quente e apagada:
+	- 1º interruptor liga a 3ª lâmpada
+Se estiver acesa:
+	- 2º interruptor liga a 3ª lâmpada
+Se estiver fria e apagada:
+	- 3º interruptor liga a 3ª lâmpada
+	
+- Resposta considerando 3 salas diferentes cada uma contendo uma lâmpada:
+
+Ligo o 1º interruptor e espero um tempo para que esquente. Desligo o mesmo e ligo o 2º interruptor. 
+
+Visito a primeira sala;
+Se a lâmpada estiver quente e apagada:
+	- 1º interruptor liga esta lâmpada
+Se a lâmpada estiver acesa:
+	- 2º interruptor liga esta lâmpada
+Se a lâmpada estiver fria e apagada:
+	- 3º interruptor liga esta lâmpada
+	
+Visito a seguda sala;
+Se a lâmpada estiver quente e apagada:
+	- 1º interruptor liga esta lâmpada
+Se a lâmpada estiver acesa:
+	- 2º interruptor liga esta lâmpada
+Se a lâmpada estiver fria e apagada:
+	- 3º interruptor liga esta lâmpada
+
+Por eliminação descobrirei o interruptor correspondente à lâmpada da terceira e última sala.
